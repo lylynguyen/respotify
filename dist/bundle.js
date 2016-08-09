@@ -44,14 +44,13 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	const greeting = (name) => {
-	  console.log(`Hello, ${name}`);
+	'use strict';
+
+	var greeting = function greeting(name) {
+	  console.log('Hello, ' + name);
 	};
 
 	greeting('world');
-
-
-
 
 /***/ }
 /******/ ]);
