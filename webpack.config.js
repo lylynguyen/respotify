@@ -23,7 +23,8 @@ module.exports = {
   eslint: {
     emitWarning: true
   },
-  module: {
+  devTool: 'inline-source-maps',
+   module: {
     preLoaders: [
       {
         test: /\.(js|jsx)$/,
@@ -40,6 +41,11 @@ module.exports = {
         test: /\.(js|jsx)/,
         exclude: /node_modules/,
         loaders: ["react-hot", "babel-loader"]
+      },
+      {
+        test: /\.css$/,
+        exclude: /node_modules/,
+        loader: 'style-loader!css-loader'
       }
     ]
   },

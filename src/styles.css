@@ -1,0 +1,44 @@
+body {
+  background-color: salmon;
+}
+
+div.searchBar {
+  margin: 30;
+  text-align: center;
+}
+
+input.searchBarInput {
+  width: 60%;
+}
+
+div.albumList {
+  width: 370;
+  margin-left: 30;
+  text-align: right;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+ul.albumListUl {
+  list-style: none;
+}
+
+img.albumImg {
+  margin-bottom: 1em;
+}
+
+li.trackLi {
+  font-size: 1.5em;
+  padding: 0.2em;
+  list-style: none;
+  background-color: white;
+}
+
+ul.trackListUl {
+  list-style: none;
+}
+
+
+
+
+
